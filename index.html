@@ -578,7 +578,7 @@ textarea.input{resize:vertical;min-height:96px}
 
   <div class="section" style="padding-top:0"><div class="wrap">
     <div class="cta-band">
-      <p class="eyebrow" style="color:inherit;opacity:.7">From $14 a month</p>
+      <p class="eyebrow" style="color:inherit;opacity:.7">From $16 a month</p>
       <h2>Your next shoot could be online tonight.</h2>
       <a class="btn" href="#create">Create a Folio <span class="arr" aria-hidden="true">→</span></a>
     </div>
@@ -622,8 +622,8 @@ textarea.input{resize:vertical;min-height:96px}
       <div class="table-scroll"><table>
         <thead><tr><th scope="col">Platform</th><th scope="col">Monthly</th><th scope="col">Domain</th><th scope="col">Automatic upkeep</th><th scope="col">Limits</th></tr></thead>
         <tbody>
-          <tr class="us"><th scope="row">Folio Starter</th><td>$14</td><td>$20 one-time</td><td>2 updates a month, started by you</td><td>1 live portfolio</td></tr>
-          <tr class="us"><th scope="row">Folio Ultra</th><td>$32</td><td>$20 one-time</td><td>Automatic, twice a week</td><td>2 live portfolios</td></tr>
+          <tr class="us"><th scope="row">Folio Starter</th><td>$16</td><td>$20 one-time</td><td>2 updates a month, started by you</td><td>1 live portfolio</td></tr>
+          <tr class="us"><th scope="row">Folio Automate</th><td>$32</td><td>$20 one-time</td><td>Automatic, twice a week</td><td>2 live portfolios</td></tr>
           <tr><th scope="row">Squarespace</th><td>$23</td><td>$20–70 a year</td><td>None</td><td>Manual edits</td></tr>
           <tr><th scope="row">Wix</th><td>$24</td><td>Paid</td><td>None</td><td>2 GB total media</td></tr>
           <tr><th scope="row">Lovable</th><td>$30</td><td>$20 a year</td><td>None</td><td>Unpredictable hosting costs</td></tr>
@@ -632,7 +632,7 @@ textarea.input{resize:vertical;min-height:96px}
     </div>
     <div class="faq">
       <details><summary>Is my work used to train AI?</summary><p>No. Folio has a strict zero-data-retention policy, and your artwork is never used to train third-party AI models.</p></details>
-      <details><summary>What happens when I add new work?</summary><p>Drop a file into a subfolder and it appears in that tab. Starter publishes when you press update, up to twice a month. Ultra checks your folder and updates the site on its own twice a week.</p></details>
+      <details><summary>What happens when I add new work?</summary><p>Drop a file into a subfolder and it appears in that tab. Starter publishes when you press update, up to twice a month. Automate checks your folder and updates the site on its own twice a week.</p></details>
       <details><summary>What does the $20 cover?</summary><p>Registering your own domain and setting it up, paid once. You can also stay on a free folio.site address.</p></details>
       <details><summary>Can I sell prints?</summary><p>Yes, if you opt in. You set the price; printing, framing and shipping are handled through print on demand.</p></details>
     </div>
@@ -746,14 +746,14 @@ textarea.input{resize:vertical;min-height:96px}
       <aside class="summary" aria-label="Order summary">
         <p class="eyebrow">Order summary</p>
         <div class="item"><img data-img="peaks" alt=""><div><strong id="sPlan" style="font:500 1.3rem var(--display)">Starter</strong><p class="exif" id="sCycle">Billed monthly</p></div></div>
-        <div class="toggle" id="coPlan"><span class="pill"></span><button type="button" aria-pressed="true" data-v="starter">Starter</button><button type="button" aria-pressed="false" data-v="ultra">Ultra</button></div>
+        <div class="toggle" id="coPlan"><span class="pill"></span><button type="button" aria-pressed="true" data-v="starter">Starter</button><button type="button" aria-pressed="false" data-v="ultra">Automate</button></div>
         <dl>
-          <div><dt id="sPlanLbl">Starter, first month</dt><dd id="sSub">$14.00</dd></div>
+          <div><dt id="sPlanLbl">Starter, first month</dt><dd id="sSub">$16.00</dd></div>
           <div><dt>Domain &amp; setup (one-time)</dt><dd>$20.00</dd></div>
-          <div><dt>Estimated tax</dt><dd id="sTax">$2.81</dd></div>
-          <div class="total"><dt>Due today</dt><dd id="sTotal">$36.81</dd></div>
+          <div><dt>Estimated tax</dt><dd id="sTax">$2.97</dd></div>
+          <div class="total"><dt>Due today</dt><dd id="sTotal">$38.97</dd></div>
         </dl>
-        <p class="exif" id="sThen">Then $14.00 a month. Cancel anytime.</p>
+        <p class="exif" id="sThen">Then $16.00 a month. Cancel anytime.</p>
         <a href="#pricing" class="exif">← Change plan</a>
       </aside>
     </div>
@@ -849,8 +849,8 @@ const TEMPLATES = [
 ];
 
 const PLANS = [
-  {id:'starter', n:'Starter', price:14, who:'For hobbyists who add work now and then.', f:['1 live portfolio','Site designed from your own style','Folder sync: Google Drive, Dropbox, iCloud, OneDrive','2 updates a month, started by you','Captions from your photo data, never invented','Contact page with commission status']},
-  {id:'ultra', n:'Ultra', price:32, who:'For people adding new work every week.', f:['Everything in Starter','Automatic updates twice a week','2 live portfolios','Semi-Auto Write for richer captions','Award ribbons and print-on-demand sales'], feat:true},
+  {id:'starter', n:'Starter', price:16, who:'For hobbyists who add work now and then.', f:['1 live portfolio','Site designed from your own style','Folder sync: Google Drive, Dropbox, iCloud, OneDrive','2 updates a month, started by you','Captions from your photo data, never invented','Contact page with commission status']},
+  {id:'ultra', n:'Automate', price:32, who:'For people adding new work every week.', f:['Everything in Starter','Automatic updates twice a week','2 live portfolios','Semi-Auto Write for richer captions','Award ribbons and print-on-demand sales'], feat:true},
 ];
 
 /* ---------- toast ---------- */
